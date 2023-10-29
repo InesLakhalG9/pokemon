@@ -26,7 +26,7 @@ class Pokemon {
 }
 
 const pokemon1 = new Pokemon('Pikachu', 30, 20, 100, 0.8);
-const pokemon2 = new Pokemon('Bulbasaur', 25, 22, 110, 0.7);
+const pokemon2 = new Pokemon('Bulbisar', 25, 22, 110, 0.7);
 
 while (pokemon1.hp > 0 && pokemon2.hp > 0) {
     pokemon1.attackPokemon(pokemon2);
